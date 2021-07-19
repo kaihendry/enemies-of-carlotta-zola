@@ -18,3 +18,5 @@ jobs:
         with:
           # Your Cloudflare API Token
           apiToken: ${{ secrets.CF_API_TOKEN }}
+        env: # https://github.com/cloudflare/wrangler-action/issues/12
+          USER: root
