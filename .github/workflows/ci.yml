@@ -7,6 +7,8 @@ jobs:
     if: ${{ github.ref == 'refs/heads/main' }}
     steps:
       - uses: actions/checkout@v2
+        with:
+          submodules: true
       - name: Install Zola
         run: sudo snap install --edge zola
       - name: Build site
