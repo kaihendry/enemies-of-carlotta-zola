@@ -1,0 +1,5 @@
+account_id = ""
+name = "travel"
+type = "webpack"
+workers_dev = true
+site = { bucket = "./public" }
