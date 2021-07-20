@@ -1,5 +1,8 @@
-account_id = ""
+account_id = "212aab16e8e2f88974a456b8097b2726"
 name = "travel"
 type = "webpack"
 workers_dev = true
 site = { bucket = "./public" }
+
+route = "travel.dabase.com/*"
+zone_id = "0b09e680ed7add33db9d8ec69de84d78"
