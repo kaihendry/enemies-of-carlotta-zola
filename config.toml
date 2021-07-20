@@ -1,13 +1,7 @@
 # The URL the site will be built for
-base_url = "https://travel.dabase.com"
+base_url = "https://travel.natalian.org"
 theme = "simple-dev-blog"
 taxonomies = [ { name = "tags" } ]
-
-# Whether to automatically compile all Sass files in the sass directory
-compile_sass = false
-
-# Whether to build a search index to be used later on by a JavaScript library
-build_search_index = true
 
 [extra]
 nav = [
@@ -18,4 +12,8 @@ author = "Kai Hendry"
 
 not_found_message = """
 This is not the page you're looking for... return back to [home?](/)
+"""
+
+footer_about = """
+A test site by [Kai Hendry](https://hendry.iki.fi/)
 """
