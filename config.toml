@@ -1,4 +1,4 @@
-base_url = "https://travel.dabase.com"
+base_url = "https://travel.natalian.org"
 theme = "simple-dev-blog"
 title = "Kai's travel archives"
 taxonomies = [ { name = "tags" } ]
