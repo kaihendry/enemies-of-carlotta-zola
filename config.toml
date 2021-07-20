@@ -1,11 +1,11 @@
-# The URL the site will be built for
-base_url = "https://travel.natalian.org"
+base_url = "https://travel.dabase.com"
 theme = "simple-dev-blog"
+title = "Kai's travel archives"
 taxonomies = [ { name = "tags" } ]
 
 [extra]
 nav = [
-  { name = "Blog", path = "/blog/" }
+  { name = "Backpacking blog", path = "/blog/" }
 ]
 
 author = "Kai Hendry"
@@ -15,5 +15,5 @@ This is not the page you're looking for... return back to [home?](/)
 """
 
 footer_about = """
-A test site by [Kai Hendry](https://hendry.iki.fi/)
+[colophon](https://github.com/kaihendry/enemies-of-carlotta-zola)
 """

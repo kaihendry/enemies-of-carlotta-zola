@@ -7,10 +7,12 @@ jobs:
     if: ${{ github.ref == 'refs/heads/main' }}
     steps:
       - uses: actions/checkout@v2
-        with:
+        with: # for https://github.com/bennetthardwick/simple-dev-blog-zola-starter
           submodules: true
       - name: Install Zola
         run: sudo snap install --edge zola
+      - name: Check for broken links
+        run: zola check
       - name: Build site
         run: zola build
       - name: Deploy to Cloudflare Workers with Wrangler
